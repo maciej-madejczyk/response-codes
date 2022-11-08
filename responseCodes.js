@@ -1,7 +1,7 @@
 /**
  * Enum for all possible response codes.
  */
-export const responseCodes = {
+const responseCodes = {
     CONTINUE: 100,
     SWITCHING_PROTOCOLS: 101,
     Processing: 102,
@@ -67,3 +67,6 @@ export const responseCodes = {
     NETWORK_AUTHENTICATION_REQUIRED: 511
 }
 
+module.exports = {
+    responseCodes
+}
